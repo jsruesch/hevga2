@@ -1,15 +1,11 @@
 <?php include('header.php') ?>
-<?php include('navigation.php') ?>  
 
-       
-<!-- Page Wrap -->       
-<div class="wrap">
-    
-    <div class="main_content">
-        <p>hello</p>
-    </div><!-- End Main Content -->
-    
-</div><!-- End Page Wrap -->
+<div class="container-fluid">
+  <div class="container">
+    <div class="col-sm-12 bg-red pad20">
+      <h2 class="text-white">Test Header</h2>
+    </div>
+  </div>
+</div>
 
-<?php include('footer.php') ?> 
-
+<?php include('footer.php') ?>

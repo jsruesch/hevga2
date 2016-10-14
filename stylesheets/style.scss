@@ -1,27 +1,21 @@
-
-/*------------------------------------------------------------------
-
-STYLESHEET CONTENTS
-
-    -- GLOBAL STYLES
-    -- MISC CLASSES
-    -- ACTIVE PAGE
-    -- CONTAINERS
-    -- NAVIGATION
-    -- ELEMENTS
-    -- FOOTER
-    
--------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
-
-    Global Styles
-
--------------------------------------------------------------------*/
+/**
+ * =========================================
+ * Imports
+ * =========================================
+ */
 
 @import 'mixins';
+@import 'responsive_styles';
 
+/* END: Imports */
+
+
+
+/**
+ * =========================================
+ * Global Styles
+ * =========================================
+ */
 * {
     margin:0; padding:0;
 
@@ -30,155 +24,66 @@ STYLESHEET CONTENTS
             box-sizing: border-box;
     }
 
-html{ overflow:scroll;}
+html{ overflow:scroll; }
+body{ font-family: 'Asap', sans-serif; }
 
-body{  }
-
-a{    
+a{
      &:hover{
     }
 
 }
 
 
-p{  }
+p{ font-family: 'Asap', sans-serif; }
 
 ul{ list-style:none; }
 
 hr{  }
 
-h1{  }
-h2{  }
-h3{  }
-h4{  }
-h5{  }
+h1, h2, h3, h4, h5{
+  font-family: 'Asap', sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
-::selection{  }
+::selection{ background: $dgrey; color: white; }
 
-/* End Global Styles */
+/* END: Global Styles */
 
 
-/*------------------------------------------------------------------
-
-    Misc Classes
-
--------------------------------------------------------------------*/
+/**
+ * =========================================
+ * Utility Classes
+ * =========================================
+ */
 
 .clear{ clear: both; }
-
 .left{ float:left; }
 .right{ float:right; }
 
-.bold{ font-weight:bold;}
-.italic{ font-style: italic; }
-.underline{ text-decoration:underline; }
-
-.center_text{ text-align:center; }
-.all_caps{ text-transform:uppercase; }
-.lower_case{ text-transform:lowercase; }
-
-/* End Misc Classes */
+/* END: Utility Classes */
 
 
-
-/*------------------------------------------------------------------
-
-    Active Page
-
--------------------------------------------------------------------*/
-
-    /*
-      body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
-    */
-
-/* End Active Page */
+/**
+ * =========================================
+ * Elements
+ * =========================================
+ */
 
 
 
-/*------------------------------------------------------------------
-
-    Containers
-
--------------------------------------------------------------------*/
-
-.one_fourth{ width:25%; }
-.one_third{ width:33.3%; }
-.half{ width:50%;}
-.two_thirds{ width:66.66%; }
-.full{ @include full; }
-
-.container{  }
-.content{ @include full; padding:20px; }
-.center{ @include center; }
-
-.wrap{ width:980px; @include center; }
-
-/* End Containers */
+/* END: Elements */
 
 
+/**
+ * =========================================
+ * Footer
+ * =========================================
+ */
 
-/*------------------------------------------------------------------
-
-    Navigation
-
--------------------------------------------------------------------*/
-
-.navigation_container{
-
-    .navigation{
-
-        .nav{
-
-            a{
-
-               &:hover{
-
-               }
-                
-                li{
-
-                }
-            }
-        }
-    }
-}
-
-
-/* End Navigation */
-
-
-
-/*------------------------------------------------------------------
-
-    Elements
-
--------------------------------------------------------------------*/
-  
-
-
-/* End Elements */
-
-
-
-/*------------------------------------------------------------------
-
-    Footer
-
--------------------------------------------------------------------*/
 .footer{
 
 }
 
-/* End Footer */
-
-
-
-
-
-
-
-
-
-
-
-
+/* END: Footer */
