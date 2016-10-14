@@ -36,10 +36,13 @@
   color: #187198; }
 
 .text-lgrey {
-  color: #D8D8D8; }
+  color: #f7f7f7; }
+
+.text-mgrey {
+  color: #E6E6E6; }
 
 .text-dgrey {
-  color: #3e3e3e; }
+  color: #D8D8D8; }
 
 .text-black {
   color: #111111; }
@@ -63,10 +66,13 @@
   background: #187198; }
 
 .bg-lgrey {
-  background: #D8D8D8; }
+  background: #f7f7f7; }
+
+.bg-mgrey {
+  background: #E6E6E6; }
 
 .bg-dgrey {
-  background: #3e3e3e; }
+  background: #D8D8D8; }
 
 .bg-black {
   background: #111111; }
@@ -83,7 +89,11 @@
   padding-bottom: 0px !important;
   padding-left: 0px !important; }
 
-h1, h2, h3, h4, h5 {
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+h1, h2, h3, h4, h5, p {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   line-height: auto; }
@@ -223,6 +233,9 @@ h1, h2, h3, h4, h5 {
 
 .mar30-top {
   margin-top: 30px !important; }
+
+.mar50-top {
+  margin-top: 50px !important; }
 
 .mar5-bot {
   margin-bottom: 5px !important; }
@@ -317,10 +330,13 @@ h1, h2, h3, h4, h5 {
   color: #187198; }
 
 .text-lgrey {
-  color: #D8D8D8; }
+  color: #f7f7f7; }
+
+.text-mgrey {
+  color: #E6E6E6; }
 
 .text-dgrey {
-  color: #3e3e3e; }
+  color: #D8D8D8; }
 
 .text-black {
   color: #111111; }
@@ -344,10 +360,13 @@ h1, h2, h3, h4, h5 {
   background: #187198; }
 
 .bg-lgrey {
-  background: #D8D8D8; }
+  background: #f7f7f7; }
+
+.bg-mgrey {
+  background: #E6E6E6; }
 
 .bg-dgrey {
-  background: #3e3e3e; }
+  background: #D8D8D8; }
 
 .bg-black {
   background: #111111; }
@@ -364,7 +383,11 @@ h1, h2, h3, h4, h5 {
   padding-bottom: 0px !important;
   padding-left: 0px !important; }
 
-h1, h2, h3, h4, h5 {
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+h1, h2, h3, h4, h5, p {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   line-height: auto; }
@@ -505,6 +528,9 @@ h1, h2, h3, h4, h5 {
 .mar30-top {
   margin-top: 30px !important; }
 
+.mar50-top {
+  margin-top: 50px !important; }
+
 .mar5-bot {
   margin-bottom: 5px !important; }
 
@@ -562,9 +588,11 @@ h1, h2, h3, h4, h5 {
 /* END: Setup Classes */
 /* END: Imports */
 /*-----------------  Desktops  -----------------*/
-/* End Desktops */
-/*-----------------  Smartphones  -----------------*/
-/* End Smartphones */
+@media screen and (max-width: 768px) {
+  .container {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    width: 85% !important; } }
 /* END: Imports */
 /**
  * =========================================
@@ -584,8 +612,17 @@ html {
 body {
   font-family: 'Asap', sans-serif; }
 
+a {
+  font-family: 'Asap', sans-serif;
+  font-size: 18px; }
+  a:hover {
+    color: #fff !important;
+    background: #187198;
+    text-decoration: none !important; }
+
 p {
-  font-family: 'Asap', sans-serif; }
+  font-family: 'Asap', sans-serif;
+  font-size: 18px; }
 
 ul {
   list-style: none; }
@@ -597,7 +634,7 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 1px; }
 
 ::selection {
-  background: #3e3e3e;
+  background: #111111;
   color: white; }
 
 /* END: Global Styles */
@@ -616,6 +653,19 @@ h1, h2, h3, h4, h5 {
   float: right; }
 
 /* END: Utility Classes */
+/**
+ * =========================================
+ * Navigation
+ * =========================================
+ */
+.navbar-inverse .navbar-nav > li > a {
+  font-family: 'Asap', sans-serif;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px; }
+
+/* END: Navigation */
 /**
  * =========================================
  * Elements

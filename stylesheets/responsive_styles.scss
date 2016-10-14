@@ -9,11 +9,12 @@
 /* END: Imports */
 
 /*-----------------  Desktops  -----------------*/
-@media screen and (max-width:635px){  }
-@media (min-width: 635px) and (max-width:770px){  }
-@media (min-device-width: 519px) and (max-devide-width:770px){  }
-/* End Desktops */
+@media screen and (max-width:768px){
 
-/*-----------------  Smartphones  -----------------*/
-@media (max-device-width: 519px) {  }
-/* End Smartphones */
+  .container{
+    padding-right:  10px !important;
+    padding-left:   10px !important;
+    width: 85% !important;
+  }
+
+}
