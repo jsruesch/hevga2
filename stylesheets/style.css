@@ -633,6 +633,9 @@ h1, h2, h3, h4, h5 {
   text-transform: uppercase;
   letter-spacing: 1px; }
 
+table tr {
+  border-bottom: 1px solid #D8D8D8; }
+
 ::selection {
   background: #111111;
   color: white; }
@@ -660,6 +663,7 @@ h1, h2, h3, h4, h5 {
  */
 .navbar-inverse .navbar-nav > li > a {
   font-family: 'Asap', sans-serif;
+  font-size: 15px !important;
   color: #fff !important;
   text-transform: uppercase;
   font-weight: 700;

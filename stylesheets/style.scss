@@ -52,6 +52,8 @@ h1, h2, h3, h4, h5{
   letter-spacing: 1px;
 }
 
+table tr{ border-bottom: 1px solid $dgrey; }
+
 ::selection{ background: $black; color: white; }
 
 /* END: Global Styles */
@@ -78,6 +80,7 @@ h1, h2, h3, h4, h5{
 
 .navbar-inverse .navbar-nav>li>a{
   font-family: 'Asap', sans-serif;
+  font-size: 15px !important;
   color: #fff !important;
   text-transform: uppercase;
   font-weight: 700;

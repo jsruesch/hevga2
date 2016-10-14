@@ -22,10 +22,16 @@
 -->
   <div class="container-fluid">
     <div class="container">
-      <!-- State of Play -->
-      <div class="row pad15 mar20-bot bg-dblue">
-        <h3 class="text-center text-white">Read "Our State of Play" the March 2015 <br/> Survey on Game-Based Programs in Higher Ed</h3>
-      </div><!-- /State of Play -->
+      <div class="row mar20-bot">
+        <div class="col-sm-6 pad20 bg-lblue">
+          <h3 class="text-center text-white">"Priming the Pump"</h3>
+          <p class="text-center text-white">The second Higher Education Video Game Alliance Survey</p>
+        </div>
+        <div class="col-sm-6 pad20 bg-dblue">
+          <h3 class="text-center text-white">"Our State of Play"</h3>
+          <p class="text-center text-white"> March 2015 Survey on Game-Based Programs in Higher Ed</p>
+        </div>
+      </div>
       <!-- Mission -->
       <div class="row mar20-bot">
         <div class="row pad15 bg-red">
@@ -58,30 +64,27 @@
         </div>
         <div class="row bg-lgrey">
           <div class="row">
-            <div class="col-sm-4 pad10 bg-dblue">
-              <h3 class="text-center text-white">October 5</h3>
-            </div>
-            <div class="col-sm-8 pad10 bg-lgrey">
-              <p>ESA Foundation Supports Next Generation of Video Game Industry</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4 pad10 bg-dblue">
-              <h3 class="text-center text-white">October 5</h3>
-            </div>
-            <div class="col-sm-8 pad10 bg-lgrey">
-              <p>ESA Foundation Supports Next Generation of Video Game Industry</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-4 pad10 bg-dblue">
-              <h3 class="text-center text-white">October 5</h3>
-            </div>
-            <div class="col-sm-8 pad10 bg-lgrey">
-              <p>ESA Foundation Supports Next Generation of Video Game Industry</p>
-            </div>
+            <table class="col-sm-12">
+              <tr>
+                <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white">October 5</h4></td>
+                <td class="col-sm-9 pad10 bg-lgrey"><p>ESA Foundation Supports Next Generation of Video Game Industry</p></td>
+              </tr>
+              <tr>
+                <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white">October 5</h4></td>
+                <td class="col-sm-9 pad10 bg-lgrey"><p>ESA Foundation Supports Next Generation of Video Game Industry</p></td>
+              </tr>
+              <tr>
+                <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white">October 5</h4></td>
+                <td class="col-sm-9 pad10 bg-lgrey"><p>ESA Foundation Supports Next Generation of Video Game Industry</p></td>
+              </tr>
+              <tr>
+                <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white">October 5</h4></td>
+                <td class="col-sm-9 pad10 bg-lgrey"><p>ESA Foundation Supports Next Generation of Video Game Industry</p></td>
+              </tr>
+            </table>
           </div>
         </div>
+
         <div class="row pad10 bg-mgrey">
           <h5 class="text-center text-black">- See Full Archive -</h5>
         </div>

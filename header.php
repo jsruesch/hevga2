@@ -42,7 +42,7 @@
             <li><a href="#">News</a></li>
             <li><a href="#">DC Meeting</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">Join Us</a></li>
+            <li class="bg-yellow"><a href="#"><span  class="text-black">Join Us</span></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
