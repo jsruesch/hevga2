@@ -84,7 +84,6 @@
             </table>
           </div>
         </div>
-
         <div class="row pad10 bg-mgrey">
           <h5 class="text-center text-black">- See Full Archive -</h5>
         </div>
