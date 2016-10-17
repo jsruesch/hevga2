@@ -24,8 +24,16 @@
             box-sizing: border-box;
     }
 
-html{ overflow: scroll; }
-body{ font-family: 'Asap', sans-serif; }
+html{
+  overflow: scroll;
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+  font-family: 'Asap', sans-serif;
+  margin-bottom: 240px !important; /* Offset sticky footer */
+}
 
 a{
     font-family: 'Asap', sans-serif; font-size: 18px;
@@ -68,6 +76,7 @@ table tr{ border-bottom: 1px solid $dgrey; }
 .clear{ clear: both; }
 .left{ float:left; }
 .right{ float:right; }
+.mc{ margin-top: 70px; } /* Main Content margin to clear nav */
 
 /* END: Utility Classes */
 
@@ -86,6 +95,8 @@ table tr{ border-bottom: 1px solid $dgrey; }
   font-weight: 700;
   letter-spacing: 1px;
 }
+
+.navbar-nav>li:hover { @include transition; background: $red; }
 
  /* END: Navigation */
 
@@ -107,8 +118,10 @@ table tr{ border-bottom: 1px solid $dgrey; }
  * =========================================
  */
 
-.footer{
-
+.sticky-footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
 }
 
 /* END: Footer */

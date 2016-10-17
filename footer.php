@@ -1,7 +1,7 @@
 <!--
   BEGIN: Footer
 -->
-  <div class="container-fluid bg-black mar20-top">
+  <div class="container-fluid bg-black sticky-footer">
     <div class="container pad30-top pad30-bot">
       <div class="footer">
         <div class="col-sm-6">

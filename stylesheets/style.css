@@ -607,10 +607,14 @@ h1, h2, h3, h4, h5, p {
   box-sizing: border-box; }
 
 html {
-  overflow: scroll; }
+  overflow: scroll;
+  min-height: 100%;
+  position: relative; }
 
 body {
-  font-family: 'Asap', sans-serif; }
+  font-family: 'Asap', sans-serif;
+  margin-bottom: 240px !important;
+  /* Offset sticky footer */ }
 
 a {
   font-family: 'Asap', sans-serif;
@@ -655,6 +659,10 @@ table tr {
 .right {
   float: right; }
 
+.mc {
+  margin-top: 70px; }
+
+/* Main Content margin to clear nav */
 /* END: Utility Classes */
 /**
  * =========================================
@@ -669,6 +677,13 @@ table tr {
   font-weight: 700;
   letter-spacing: 1px; }
 
+.navbar-nav > li:hover {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  background: #EF3F35; }
+
 /* END: Navigation */
 /**
  * =========================================
@@ -681,6 +696,11 @@ table tr {
  * Footer
  * =========================================
  */
+.sticky-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px; }
+
 /* END: Footer */
 
 /*# sourceMappingURL=style.css.map */

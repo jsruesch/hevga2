@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="img/nav-logo.png"/></a>
+          <a class="navbar-brand" href="index.php"><img src="img/nav-logo.png"/></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,7 +39,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">About</a></li>
             <li><a href="#">Reports</a></li>
-            <li><a href="#">News</a></li>
+            <li><a href="news.php">News</a></li>
             <li><a href="#">DC Meeting</a></li>
             <li><a href="#">Contact</a></li>
             <li class="bg-yellow"><a href="#"><span  class="text-black">Join Us</span></a></li>
