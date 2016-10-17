@@ -21,12 +21,11 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body id="">
-
 <!--
   BEGIN: Navigation
 -->
   <div class="row">
-  <nav class="navbar navbar-fixed-top">
+  <nav class="navbar">
     <nav class="navbar-inverse">
       <div class="container-fluid bg-black">
         <div class="container">

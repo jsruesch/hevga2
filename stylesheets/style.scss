@@ -76,7 +76,7 @@ table tr{ border-bottom: 1px solid $dgrey; }
 .clear{ clear: both; }
 .left{ float:left; }
 .right{ float:right; }
-.mc{ margin-top: 70px; } /* Main Content margin to clear nav */
+.mc{ margin-top: 20px; } /* Main Content margin to clear nav */
 
 /* END: Utility Classes */
 
@@ -86,6 +86,8 @@ table tr{ border-bottom: 1px solid $dgrey; }
  * Navigation
  * =========================================
  */
+
+.navbar{ margin-bottom: 0 !important; }
 
 .navbar-inverse .navbar-nav>li>a{
   font-family: 'Asap', sans-serif;
@@ -107,7 +109,21 @@ table tr{ border-bottom: 1px solid $dgrey; }
  * =========================================
  */
 
+.ec-profile{
+  transition: background-color 100ms linear;
+  background: $lgrey;
 
+  img{
+    width: 125px;
+    height: 125px;
+  }
+
+  &:hover{
+    transition: background-color 100ms linear;
+    cursor: pointer;
+    background: $lblue;
+  }
+}
 
 /* END: Elements */
 
