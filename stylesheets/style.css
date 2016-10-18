@@ -627,8 +627,7 @@ html {
 
 body {
   font-family: 'Asap', sans-serif;
-  margin-bottom: 240px !important;
-  /* Offset sticky footer */ }
+  padding-bottom: 149px; }
 
 a {
   font-family: 'Asap', sans-serif;
@@ -935,6 +934,15 @@ table tr {
   width: 100%;
   position: absolute;
   bottom: 0px; }
+
+.footer p, .footer li, .footer a {
+  font-size: 15px; }
+
+.footer ul li a {
+  color: #666; }
+  .footer ul li a:hover {
+    color: #888;
+    background: none; }
 
 /* END: Footer */
 

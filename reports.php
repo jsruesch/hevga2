@@ -129,7 +129,7 @@
         </div>
       </div><!-- /Read Reports -->
       <!-- Bib -->
-      <div class="row">
+      <div class="row pad15">
         <ol>
           <li class="small">
             U.S. Department of Education, National Center for Education Statistics, Higher Education General Information Survey, “Degrees and Other Formal Awards Conferred” surveys, 1970-71 through 1985-86; Integrated Postsecondary Education Data System (IPEDS), "Completions Survey" (IPEDS-C:87-89); and IPEDS Fall 2000 through Fall 2011, Completions component (tables prepared in July 2012).
@@ -142,7 +142,7 @@
             ACT "College Student Retention and Graduation Rates from 2000 through 2014" (<a class="small" href="www.act.org/research/policymakers/reports/graduation.html" target="_blank">www.act.org/research/policymakers/reports/graduation.html</a>).
           </li>
         </ol>
-      </div>
+      </div><!-- /Bib -->
     </div>
   </div>
 <!-- END: Main Content -->

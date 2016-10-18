@@ -66,13 +66,17 @@
         </a>
       </div><!-- /Certification and Industry Map -->
       <!-- News -->
-      <div class="row">
+      <div class="row mar20-bot">
         <div class="row pad15 bg-black">
           <h2 class="text-white">Recent News and Events</h2>
         </div>
         <div class="row bg-lgrey">
           <div class="row">
             <table class="col-sm-12">
+              <tr>
+                <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white">October 5</h4></td>
+                <td class="col-sm-9 pad10 bg-lgrey"><p>ESA Foundation Supports Next Generation of Video Game Industry</p></td>
+              </tr>
               <tr>
                 <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white">October 5</h4></td>
                 <td class="col-sm-9 pad10 bg-lgrey"><p>ESA Foundation Supports Next Generation of Video Game Industry</p></td>
