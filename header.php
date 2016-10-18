@@ -160,7 +160,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="about.php">About</a></li>
-            <li><a href="#">Reports</a></li>
+            <li><a href="reports.php">Reports</a></li>
             <li><a href="news.php">News</a></li>
             <li><a href="#">DC Meeting</a></li>
             <li><a href="#">Contact</a></li>

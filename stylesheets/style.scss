@@ -46,7 +46,7 @@ a{
 
 }
 
-p{ font-family: 'Asap', sans-serif; font-size: 18px; }
+p, li{ font-family: 'Asap', sans-serif; font-size: 18px; }
 
 ul{ list-style:none; }
 
@@ -85,6 +85,13 @@ table tr{ border-bottom: 1px solid $dgrey; }
   }
 }
 .full{ @include full; }
+.rep-img{
+  max-width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /* END: Utility Classes */
 

@@ -638,7 +638,7 @@ a {
     background: #187198;
     text-decoration: none !important; }
 
-p {
+p, li {
   font-family: 'Asap', sans-serif;
   font-size: 18px; }
 
@@ -693,6 +693,13 @@ table tr {
 .full {
   width: 100%;
   float: left; }
+
+.rep-img {
+  max-width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: auto;
+  margin-left: auto; }
 
 /* END: Utility Classes */
 /**
