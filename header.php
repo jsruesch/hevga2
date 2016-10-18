@@ -19,6 +19,122 @@
     <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Institution Accordion Setup -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <!-- Linkable TR -->
+  	<script type="text/javascript">
+  		function DoNav(url)
+  		{
+  		   document.location.href = url;
+  		}
+  	</script>
+    <script>
+          $(function() {
+            $( "#accordion_usa" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_canada" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_uk" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_australia" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_ireland" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_france" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_turkey" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_singapore" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_china" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_japan" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_guatemala" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_mexico" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_venezuela" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_brazil" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_scotland" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_sweden" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_finland" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_slovakia" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_voting_members" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+			$( "#accordion_non_voting_members" ).accordion({
+              heightStyle: "content",
+              collapsible: true,
+              active: false
+            });
+          });
+    </script>
+    <!-- END: Institution Accordion Setup -->
 </head>
 <body id="">
 <!--

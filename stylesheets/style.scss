@@ -77,6 +77,14 @@ table tr{ border-bottom: 1px solid $dgrey; }
 .left{ float:left; }
 .right{ float:right; }
 .mc{ margin-top: 20px; } /* Main Content margin to clear nav */
+.b-link{
+  @include transition;
+  &:hover{
+    @include transition;
+    opacity: .65;
+    cursor: pointer;
+  }
+}
 
 /* END: Utility Classes */
 
@@ -114,6 +122,7 @@ table tr{ border-bottom: 1px solid $dgrey; }
   background: $lgrey;
 
   img{
+    @include transition;
     width: 125px;
     height: 125px;
   }
@@ -122,10 +131,77 @@ table tr{ border-bottom: 1px solid $dgrey; }
     transition: background-color 100ms linear;
     cursor: pointer;
     background: $lblue;
+
+    img{
+      @include transition;
+      opacity: .7;
+    }
   }
 }
 
 /* END: Elements */
+
+
+/**
+ * =========================================
+ * Institution Accordion
+ * =========================================
+ */
+
+ #accordion_usa,
+ #accordion_australia,
+ #accordion_brazil,
+ #accordion_canada,
+ #accordion_china,
+ #accordion_france,
+ #accordion_finland,
+ #accordion_guatemala,
+ #accordion_ireland,
+ #accordion_japan,
+ #accordion_mexico,
+ #accordion_scotland,
+ #accordion_singapore,
+ #accordion_slovakia,
+ #accordion_sweden,
+ #accordion_turkey,
+ #accordion_uk,
+ #accordion_venezuela,
+ #accordion_voting_members,
+ #accordion_non_voting_members{
+     @include full;
+     background:#F7F7F7;
+     padding:5px 0;
+
+     .ui-accordion-header{ padding: 12px 10px 10px 30px; }
+
+     .ui-accordion-content{
+         padding: 20px;
+         background: #fff !important;
+         border-radius:0 0 0;
+     }
+
+     .ui-state-default{
+         background: #e6e6e6;
+         border-radius: 0 0 0;
+         border: none;
+     }
+
+     .ui-state-active{ background:#bababa; color:#333; }
+
+     li:nth-child(odd){
+         @include full;
+         padding: 10px 10px 10px 10px;
+         background: #ececec;
+     }
+
+     li:nth-child(even){
+         @include full;
+         padding: 10px 10px 10px 10px;
+         background: #fff;
+     }
+ }
+
+ /* END: Institution Accordion */
 
 
 /**

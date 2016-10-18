@@ -677,6 +677,19 @@ table tr {
   margin-top: 20px; }
 
 /* Main Content margin to clear nav */
+.b-link {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease; }
+  .b-link:hover {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    opacity: .65;
+    cursor: pointer; }
+
 /* END: Utility Classes */
 /**
  * =========================================
@@ -711,14 +724,192 @@ table tr {
   transition: background-color 100ms linear;
   background: #f7f7f7; }
   .ec-profile img {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
     width: 125px;
     height: 125px; }
   .ec-profile:hover {
     transition: background-color 100ms linear;
     cursor: pointer;
     background: #45B6E5; }
+    .ec-profile:hover img {
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      opacity: .7; }
 
 /* END: Elements */
+/**
+ * =========================================
+ * Institution Accordion
+ * =========================================
+ */
+#accordion_usa,
+#accordion_australia,
+#accordion_brazil,
+#accordion_canada,
+#accordion_china,
+#accordion_france,
+#accordion_finland,
+#accordion_guatemala,
+#accordion_ireland,
+#accordion_japan,
+#accordion_mexico,
+#accordion_scotland,
+#accordion_singapore,
+#accordion_slovakia,
+#accordion_sweden,
+#accordion_turkey,
+#accordion_uk,
+#accordion_venezuela,
+#accordion_voting_members,
+#accordion_non_voting_members {
+  width: 100%;
+  float: left;
+  background: #F7F7F7;
+  padding: 5px 0; }
+  #accordion_usa .ui-accordion-header,
+  #accordion_australia .ui-accordion-header,
+  #accordion_brazil .ui-accordion-header,
+  #accordion_canada .ui-accordion-header,
+  #accordion_china .ui-accordion-header,
+  #accordion_france .ui-accordion-header,
+  #accordion_finland .ui-accordion-header,
+  #accordion_guatemala .ui-accordion-header,
+  #accordion_ireland .ui-accordion-header,
+  #accordion_japan .ui-accordion-header,
+  #accordion_mexico .ui-accordion-header,
+  #accordion_scotland .ui-accordion-header,
+  #accordion_singapore .ui-accordion-header,
+  #accordion_slovakia .ui-accordion-header,
+  #accordion_sweden .ui-accordion-header,
+  #accordion_turkey .ui-accordion-header,
+  #accordion_uk .ui-accordion-header,
+  #accordion_venezuela .ui-accordion-header,
+  #accordion_voting_members .ui-accordion-header,
+  #accordion_non_voting_members .ui-accordion-header {
+    padding: 12px 10px 10px 30px; }
+  #accordion_usa .ui-accordion-content,
+  #accordion_australia .ui-accordion-content,
+  #accordion_brazil .ui-accordion-content,
+  #accordion_canada .ui-accordion-content,
+  #accordion_china .ui-accordion-content,
+  #accordion_france .ui-accordion-content,
+  #accordion_finland .ui-accordion-content,
+  #accordion_guatemala .ui-accordion-content,
+  #accordion_ireland .ui-accordion-content,
+  #accordion_japan .ui-accordion-content,
+  #accordion_mexico .ui-accordion-content,
+  #accordion_scotland .ui-accordion-content,
+  #accordion_singapore .ui-accordion-content,
+  #accordion_slovakia .ui-accordion-content,
+  #accordion_sweden .ui-accordion-content,
+  #accordion_turkey .ui-accordion-content,
+  #accordion_uk .ui-accordion-content,
+  #accordion_venezuela .ui-accordion-content,
+  #accordion_voting_members .ui-accordion-content,
+  #accordion_non_voting_members .ui-accordion-content {
+    padding: 20px;
+    background: #fff !important;
+    border-radius: 0 0 0; }
+  #accordion_usa .ui-state-default,
+  #accordion_australia .ui-state-default,
+  #accordion_brazil .ui-state-default,
+  #accordion_canada .ui-state-default,
+  #accordion_china .ui-state-default,
+  #accordion_france .ui-state-default,
+  #accordion_finland .ui-state-default,
+  #accordion_guatemala .ui-state-default,
+  #accordion_ireland .ui-state-default,
+  #accordion_japan .ui-state-default,
+  #accordion_mexico .ui-state-default,
+  #accordion_scotland .ui-state-default,
+  #accordion_singapore .ui-state-default,
+  #accordion_slovakia .ui-state-default,
+  #accordion_sweden .ui-state-default,
+  #accordion_turkey .ui-state-default,
+  #accordion_uk .ui-state-default,
+  #accordion_venezuela .ui-state-default,
+  #accordion_voting_members .ui-state-default,
+  #accordion_non_voting_members .ui-state-default {
+    background: #e6e6e6;
+    border-radius: 0 0 0;
+    border: none; }
+  #accordion_usa .ui-state-active,
+  #accordion_australia .ui-state-active,
+  #accordion_brazil .ui-state-active,
+  #accordion_canada .ui-state-active,
+  #accordion_china .ui-state-active,
+  #accordion_france .ui-state-active,
+  #accordion_finland .ui-state-active,
+  #accordion_guatemala .ui-state-active,
+  #accordion_ireland .ui-state-active,
+  #accordion_japan .ui-state-active,
+  #accordion_mexico .ui-state-active,
+  #accordion_scotland .ui-state-active,
+  #accordion_singapore .ui-state-active,
+  #accordion_slovakia .ui-state-active,
+  #accordion_sweden .ui-state-active,
+  #accordion_turkey .ui-state-active,
+  #accordion_uk .ui-state-active,
+  #accordion_venezuela .ui-state-active,
+  #accordion_voting_members .ui-state-active,
+  #accordion_non_voting_members .ui-state-active {
+    background: #bababa;
+    color: #333; }
+  #accordion_usa li:nth-child(odd),
+  #accordion_australia li:nth-child(odd),
+  #accordion_brazil li:nth-child(odd),
+  #accordion_canada li:nth-child(odd),
+  #accordion_china li:nth-child(odd),
+  #accordion_france li:nth-child(odd),
+  #accordion_finland li:nth-child(odd),
+  #accordion_guatemala li:nth-child(odd),
+  #accordion_ireland li:nth-child(odd),
+  #accordion_japan li:nth-child(odd),
+  #accordion_mexico li:nth-child(odd),
+  #accordion_scotland li:nth-child(odd),
+  #accordion_singapore li:nth-child(odd),
+  #accordion_slovakia li:nth-child(odd),
+  #accordion_sweden li:nth-child(odd),
+  #accordion_turkey li:nth-child(odd),
+  #accordion_uk li:nth-child(odd),
+  #accordion_venezuela li:nth-child(odd),
+  #accordion_voting_members li:nth-child(odd),
+  #accordion_non_voting_members li:nth-child(odd) {
+    width: 100%;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    background: #ececec; }
+  #accordion_usa li:nth-child(even),
+  #accordion_australia li:nth-child(even),
+  #accordion_brazil li:nth-child(even),
+  #accordion_canada li:nth-child(even),
+  #accordion_china li:nth-child(even),
+  #accordion_france li:nth-child(even),
+  #accordion_finland li:nth-child(even),
+  #accordion_guatemala li:nth-child(even),
+  #accordion_ireland li:nth-child(even),
+  #accordion_japan li:nth-child(even),
+  #accordion_mexico li:nth-child(even),
+  #accordion_scotland li:nth-child(even),
+  #accordion_singapore li:nth-child(even),
+  #accordion_slovakia li:nth-child(even),
+  #accordion_sweden li:nth-child(even),
+  #accordion_turkey li:nth-child(even),
+  #accordion_uk li:nth-child(even),
+  #accordion_venezuela li:nth-child(even),
+  #accordion_voting_members li:nth-child(even),
+  #accordion_non_voting_members li:nth-child(even) {
+    width: 100%;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    background: #fff; }
+
+/* END: Institution Accordion */
 /**
  * =========================================
  * Footer

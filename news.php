@@ -13,19 +13,19 @@
         <div class="row bg-lgrey">
           <div class="row">
             <table class="col-sm-12">
-              <tr>
+              <tr class="b-link">
                 <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white">October 5</h4></td>
                 <td class="col-sm-9 pad10 bg-lgrey"><p>ESA Foundation Supports Next Generation of Video Game Industry</p></td>
               </tr>
-              <tr>
+              <tr class="b-link">
                 <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white">October 5</h4></td>
                 <td class="col-sm-9 pad10 bg-lgrey"><p>ESA Foundation Supports Next Generation of Video Game Industry</p></td>
               </tr>
-              <tr>
+              <tr class="b-link">
                 <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white">October 5</h4></td>
                 <td class="col-sm-9 pad10 bg-lgrey"><p>ESA Foundation Supports Next Generation of Video Game Industry</p></td>
               </tr>
-              <tr>
+              <tr class="b-link">
                 <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white">October 5</h4></td>
                 <td class="col-sm-9 pad10 bg-lgrey"><p>ESA Foundation Supports Next Generation of Video Game Industry</p></td>
               </tr>

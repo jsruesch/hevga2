@@ -23,14 +23,18 @@
   <div class="container-fluid">
     <div class="container">
       <div class="row mar20-bot">
-        <div class="col-sm-6 pad20 bg-lblue">
-          <h3 class="text-center text-white">"Priming the Pump"</h3>
-          <p class="text-center text-white">The second Higher Education Video Game Alliance Survey</p>
-        </div>
-        <div class="col-sm-6 pad20 bg-dblue">
-          <h3 class="text-center text-white">"Our State of Play"</h3>
-          <p class="text-center text-white"> March 2015 Survey on Game-Based Programs in Higher Ed</p>
-        </div>
+        <a href="" class="b-link">
+          <div class="col-sm-6 pad20 bg-lblue">
+            <h3 class="text-center text-white">"Priming the Pump"</h3>
+            <p class="text-center text-white">The second Higher Education Video Game Alliance Survey</p>
+          </div>
+        </a>
+        <a href="#" class="b-link">
+          <div class="col-sm-6 pad20 bg-dblue">
+            <h3 class="text-center text-white">"Our State of Play"</h3>
+            <p class="text-center text-white"> March 2015 Survey on Game-Based Programs in Higher Ed</p>
+          </div>
+        </a>
       </div>
       <!-- Mission -->
       <div class="row mar20-bot">
@@ -46,16 +50,20 @@
       </div><!-- /Mission -->
       <!-- Certification and Industry Map -->
       <div class="row mar20-bot">
-        <div class="col-sm-6">
-          <div class="full pad10 bg-green">
-            <h3 class="text-white text-center">Certification and Degree <br/> Programs</h3>
+        <a href="#" class="b-link">
+          <div class="col-sm-6">
+            <div class="full pad10 bg-green">
+              <h3 class="text-white text-center">Certification and Degree <br/> Programs</h3>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="full pad10 bg-yellow">
-            <h3 class="text-white text-center">Industry <br/> Map</h3>
+        </a>
+        <a href="#" class="b-link">
+          <div class="col-sm-6">
+            <div class="full pad10 bg-yellow">
+              <h3 class="text-white text-center">Industry <br/> Map</h3>
+            </div>
           </div>
-        </div>
+        </a>
       </div><!-- /Certification and Industry Map -->
       <!-- News -->
       <div class="row">
@@ -84,9 +92,11 @@
             </table>
           </div>
         </div>
-        <div class="row pad10 bg-mgrey">
-          <h5 class="text-center text-black">- See Full Archive -</h5>
-        </div>
+        <a href="#" class="b-link">
+          <div class="row pad10 bg-mgrey">
+            <h5 class="text-center text-black">- See Full Archive -</h5>
+          </div>
+        </a>
       </div><!-- /News -->
     </div>
   </div>
