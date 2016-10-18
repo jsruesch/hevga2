@@ -97,7 +97,26 @@
           <h2 class="text-white">Institutions</h2>
         </div>
         <div class="row bg-lgrey pad15">
-          <div class="row">
+          <div class="row pad15">
+            <img class="full" src="img/hevga_map_usa.png"/>
+          </div>
+          <div class="row mar15-top mar15-bot">
+            <div class="col-md-3 col-sm-6">
+              <div class="dot bg-red mar10-right left"></div>
+              <p class="left"> = 1 Institution</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="dot bg-lblue mar10-right left"></div>
+              <p class="left"> = 2 Institutions</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="dot bg-green mar10-right left"></div>
+              <p class="left"> = 3 Institutions</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="dot bg-yellow mar10-right left"></div>
+              <p class="left"> = 4+ Institutions</p>
+            </div>
           </div>
           <div class="row">
             <!-- USA -->

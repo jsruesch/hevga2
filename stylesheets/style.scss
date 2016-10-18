@@ -22,7 +22,7 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-    }
+}
 
 html{
   overflow: scroll;
@@ -45,7 +45,6 @@ a{
     }
 
 }
-
 
 p{ font-family: 'Asap', sans-serif; font-size: 18px; }
 
@@ -85,6 +84,7 @@ table tr{ border-bottom: 1px solid $dgrey; }
     cursor: pointer;
   }
 }
+.full{ @include full; }
 
 /* END: Utility Classes */
 
@@ -137,6 +137,12 @@ table tr{ border-bottom: 1px solid $dgrey; }
       opacity: .7;
     }
   }
+}
+
+.dot{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
 }
 
 /* END: Elements */
