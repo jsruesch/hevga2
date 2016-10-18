@@ -24,16 +24,18 @@
         </div>
         <div class="row bg-lgrey">
           <!-- Constance -->
-          <div class="col-sm-6 col-md-4 pad20 ec-profile">
-            <div class="row">
-              <img src="img/portraits/portrait_constance.png" class="center-block"/>
+          <a href="profile.php">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="img/portraits/portrait_constance.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Constance Steinkuehler</h4>
+                <p class="text-center"><strong>University of Wisconsin-Madison</strong></p>
+                <p class="text-center">President</p>
+              </div>
             </div>
-            <div class="row mar15-top">
-              <h4 class="text-dblue text-center">Constance Steinkuehler</h4>
-              <p class="text-center"><strong>University of Wisconsin-Madison</strong></p>
-              <p class="text-center">President</p>
-            </div>
-          </div><!-- /Constance -->
+          </a><!-- /Constance -->
           <!-- Tracy -->
           <div class="col-sm-6 col-md-4 pad20 ec-profile">
             <div class="row">

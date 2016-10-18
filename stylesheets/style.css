@@ -627,7 +627,8 @@ html {
 
 body {
   font-family: 'Asap', sans-serif;
-  padding-bottom: 149px; }
+  padding-bottom: 169px;
+  /* Offset for Sticky Footer */ }
 
 a {
   font-family: 'Asap', sans-serif;
