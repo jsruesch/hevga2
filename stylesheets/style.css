@@ -708,7 +708,19 @@ table tr {
  * =========================================
  */
 .navbar {
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  border: 0 !important; }
+
+.navbar-toggle {
+  border-radius: 0 !important;
+  border: none !important; }
+
+.navbar-nav > li:hover {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  background: #EF3F35; }
 
 .navbar-inverse .navbar-nav > li > a {
   font-family: 'Asap', sans-serif;
@@ -717,13 +729,6 @@ table tr {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px; }
-
-.navbar-nav > li:hover {
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  background: #EF3F35; }
 
 /* END: Navigation */
 /**
@@ -758,6 +763,20 @@ table tr {
   border-radius: 10px; }
 
 /* END: Elements */
+/**
+ * =========================================
+ * Carousel
+ * =========================================
+ */
+.carousel-inner .item img {
+  min-height: 325px;
+  max-height: 350px;
+  background-position: center; }
+
+.carousel-control:hover {
+  background: none !important; }
+
+/* END: Carousel */
 /**
  * =========================================
  * Institution Accordion

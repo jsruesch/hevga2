@@ -102,8 +102,9 @@ table tr{ border-bottom: 1px solid $dgrey; }
  * =========================================
  */
 
-.navbar{ margin-bottom: 0 !important; }
-
+.navbar{ margin-bottom: 0 !important; border: 0 !important; }
+.navbar-toggle{ border-radius: 0 !important; border: none !important; }
+.navbar-nav>li:hover { @include transition; background: $red; }
 .navbar-inverse .navbar-nav>li>a{
   font-family: 'Asap', sans-serif;
   font-size: 15px !important;
@@ -112,8 +113,6 @@ table tr{ border-bottom: 1px solid $dgrey; }
   font-weight: 700;
   letter-spacing: 1px;
 }
-
-.navbar-nav>li:hover { @include transition; background: $red; }
 
  /* END: Navigation */
 
@@ -153,6 +152,21 @@ table tr{ border-bottom: 1px solid $dgrey; }
 }
 
 /* END: Elements */
+
+/**
+ * =========================================
+ * Carousel
+ * =========================================
+ */
+
+.carousel-inner .item img{
+  min-height: 325px;
+  max-height: 350px;
+  background-position: center;
+}
+.carousel-control:hover{ background: none !important; }
+
+ /* END: Carousel */
 
 
 /**

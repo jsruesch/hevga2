@@ -1,22 +1,51 @@
 <?php include('header.php') ?>
 
 <!--
-  BEGIN: Jumbotron
+  BEGIN: Carousel
 -->
-  <div class="container-fluid">
-    <div class="jumbotron">
-        <div class="container">
-        <h1 class="display-3">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="m-y-2">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
+  <div class="container-fluid mar20-bot">
+    <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/slides/slide-01.png"/>
+          <div class="carousel-caption">
+            <h1>Caption</h1>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/slides/slide-02.png"/>
+          <div class="carousel-caption">
+            <h1>Caption</h1>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/slides/slide-03.png"/>
+          <div class="carousel-caption">
+            <h1>Caption</h1>
+          </div>
+        </div>
       </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </div>
-<!-- END: Jumbotron -->
+<!-- END: Carousel -->
 <!--
   BEGIN: Main Content
 -->
