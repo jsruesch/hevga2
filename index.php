@@ -16,20 +16,29 @@
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <img src="img/slides/slide-01.png"/>
-          <div class="carousel-caption">
-            <h1>Caption</h1>
+          <div class="carousel-caption mar10-bot">
+            <h1 class="text-yellow">Caption 01</h1>
+            <p>
+              Subtitle
+            </p>
           </div>
         </div>
         <div class="item">
-          <img src="img/slides/slide-02.png"/>
-          <div class="carousel-caption">
-            <h1>Caption</h1>
+          <img src="img/slides/slide-01.png"/>
+          <div class="carousel-caption mar10-bot">
+            <h1 class="text-yellow">Caption 02</h1>
+            <p>
+              Subtitle
+            </p>
           </div>
         </div>
         <div class="item">
-          <img src="img/slides/slide-03.png"/>
-          <div class="carousel-caption">
-            <h1>Caption</h1>
+          <img src="img/slides/slide-01.png"/>
+          <div class="carousel-caption mar10-bot">
+            <h1 class="text-yellow">Caption 03</h1>
+            <p>
+              Subtitle
+            </p>
           </div>
         </div>
       </div>
